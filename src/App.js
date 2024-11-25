@@ -26,7 +26,12 @@ function App() {
                   required
                 />
               </div>
-              <img src="@/images/avatar.png" alt="avatar img" />
+              <img
+                src="@/images/avatar.png"
+                class="w-10 h-10"
+                onClick={console.log("hello")}
+                alt="avatar img"
+              />
             </form>
           </div>
         </div>

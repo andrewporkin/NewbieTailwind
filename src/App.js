@@ -26,22 +26,7 @@ function App() {
                   required
                 />
               </div>
-              <div class="mb-4">
-                <label for="password" class="block text-gray-400">
-                  Password
-                </label>
-                <input
-                  type="password"
-                  id="password"
-                  name="password"
-                  class="mt-1 p-2 w-full  bg-indigo-950 rounded-md focus:ring-blue-500 focus:border-blue-500"
-                  placeholder="Your password"
-                  required
-                />
-              </div>
-              <div class="w-3/6 bg-indigo-900 shadow-2xl border border-indigo-950  text-white text-center font-bold py-2 px-4 rounded-3xl justify-self-center focus:outline-none focus:shadow-outline">
-                Register
-              </div>
+              <img src="@/images/avatar.png" alt="avatar img" />
             </form>
           </div>
         </div>

@@ -1,8 +1,8 @@
 function App() {
   return (
     <div class="bg-gray-100 flex justify-center space-x-40 items-center min-h-screen w-screen">
-      <div class="bg-indigo-900 p-8 rounded-lg shadow-lg shadow-inner w-full h-128 max-w-md"></div>
-      <div class="bg-indigo-900 p-8 rounded-3xl shadow-lg shadow-inner w-full h-128 max-w-md">
+      <div class="bg-indigo-900 p-8 rounded-lg shadow-lg  w-full h-128 max-w-md"></div>
+      <div class="bg-indigo-900 p-8 rounded-3xl shadow-lg w-full h-128 max-w-md">
         <div class="border border-solid border-black rounded-md h-full pb-4">
           <div class=" divide-y divide-solid">
             <div>

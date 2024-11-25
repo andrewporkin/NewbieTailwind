@@ -47,7 +47,11 @@ function App() {
             <h2 class="text-2xl text-white font-semibold text-center my-6">
               Create Account
             </h2>
-            <form action="#" method="POST">
+            <form
+              action="#"
+              method="POST"
+              onInvalid={console.log("Input all fields")}
+            >
               <div class="mb-4">
                 <label for="email" class="block text-gray-400">
                   Email
